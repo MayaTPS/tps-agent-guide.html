@@ -405,248 +405,19 @@ a.cl:hover { color: var(--green); border-color: var(--green); }
 <header class="site-header">
   <div class="header-row">
     <div class="logo">TPS <em>Agent Guide</em></div>
-    <span class="listing-count">6 Listings</span>
+    <span class="listing-count">4 Listings</span>
   </div>
   <div class="header-sub">Field Reference · Hamilton · For showing use only</div>
 </header>
 
 <!-- ── FILTERS ── -->
 <div class="filters">
-  <button class="filter-btn active" onclick="filterCards('all', this)">All (6)</button>
+  <button class="filter-btn active" onclick="filterCards('all', this)">All (4)</button>
   <button class="filter-btn" onclick="filterCards('now', this)">🟢 Available Now (3)</button>
-  <button class="filter-btn" onclick="filterCards('soon', this)">🟡 Available Soon (3)</button>
+  <button class="filter-btn" onclick="filterCards('soon', this)">🟡 Available Soon (1)</button>
 </div>
 
 <main class="main">
-
-<!-- ══════════════════════════════
-     GROUP: FAIRLEIGH AVE N
-══════════════════════════════ -->
-<div class="section-divider">
-  <div class="divider-line"></div>
-  <span class="divider-label">10 Fairleigh Ave N · 3 units</span>
-  <div class="divider-line"></div>
-</div>
-
-<!-- FAIRLEIGH — UNIT 1 (MAIN) -->
-<div class="card-wrapper" data-status="soon">
-<div class="card">
-  <div class="card-strip strip-soon"></div>
-  <div class="card-body">
-    <div class="card-header">
-      <div class="card-address">
-        <div class="unit-label">Unit 1 · Main Floor</div>
-        <div class="address-main">10 Fairleigh Ave N</div>
-      </div>
-      <span class="status-badge badge-soon">Sept 1</span>
-    </div>
-
-    <div class="rent-row">
-      <span class="rent-amount">$1,450</span>
-      <span class="rent-period">/mo</span>
-    </div>
-
-    <div class="stats-row">
-      <span class="stat-chip"><span class="stat-icon">🛏</span>1 Bed</span>
-      <span class="stat-chip"><span class="stat-icon">🛁</span>1 Bath (4-pc)</span>
-      <span class="stat-chip"><span class="stat-icon">🅿️</span>Street Only</span>
-      <span class="stat-chip"><span class="stat-icon">🧺</span>In-Suite Laundry</span>
-    </div>
-
-    <div class="section-label">Utilities — Tenant Pays</div>
-    <div class="utils-grid">
-      <span class="util-item"><span class="util-label">Hydro</span>50% (shared w/ Unit 3)</span>
-      <span class="util-item"><span class="util-label">Gas</span>33.3%</span>
-      <span class="util-item"><span class="util-label">Water</span>33.3%</span>
-    </div>
-
-    <div class="collapsibles">
-      <button class="collapse-toggle" onclick="toggle(this,'f1-access')">🔑 Access <span class="toggle-arrow">▾</span></button>
-      <button class="collapse-toggle" onclick="toggle(this,'f1-contacts')">👤 Tenant <span class="toggle-arrow">▾</span></button>
-    </div>
-
-    <div class="collapse-content" id="f1-access">
-      <div class="info-row">
-        <span class="info-label">Lockbox</span>
-        <span class="info-value">On railing &nbsp;·&nbsp; <button class="lockbox-reveal" onclick="reveal(this,'9518')">Tap to reveal</button></span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Note</span>
-        <span class="info-value">All 3 Fairleigh units share the same lockbox code.</span>
-      </div>
-    </div>
-
-    <div class="collapse-content" id="f1-contacts">
-      <div class="info-row">
-        <span class="info-label">Tenant</span>
-        <span class="info-value">Robert Spencer</span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Phone</span>
-        <span class="info-value"><a class="cl" href="tel:2892600300">289-260-0300</a></span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Email</span>
-        <span class="info-value"><a class="cl" href="mailto:robdspencer@gmail.com">robdspencer@gmail.com</a></span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Notify</span>
-        <span class="info-value">maya@tpropertysolutions.ca · rental.estatepro@gmail.com (Zarema, owner)</span>
-      </div>
-    </div>
-
-    <div class="card-notes">
-      <strong>Snow/ice:</strong> Tenant responsible for their own walkway to sidewalk.
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- FAIRLEIGH — UNIT 2 (UPPER) -->
-<div class="card-wrapper" data-status="now">
-<div class="card">
-  <div class="card-strip strip-now"></div>
-  <div class="card-body">
-    <div class="card-header">
-      <div class="card-address">
-        <div class="unit-label">Unit 2 · Upper</div>
-        <div class="address-main">10 Fairleigh Ave N</div>
-      </div>
-      <span class="status-badge badge-now">Available Now</span>
-    </div>
-
-    <div class="rent-row">
-      <span class="rent-amount">$1,945</span>
-      <span class="rent-period">/mo</span>
-    </div>
-
-    <div class="stats-row">
-      <span class="stat-chip"><span class="stat-icon">🛏</span>3 Bed (incl. attic)</span>
-      <span class="stat-chip"><span class="stat-icon">🛁</span>1 Bath (3-pc)</span>
-      <span class="stat-chip"><span class="stat-icon">🅿️</span>Street Only</span>
-      <span class="stat-chip"><span class="stat-icon">🧺</span>In-Suite Laundry</span>
-    </div>
-
-    <div class="section-label">Utilities — Tenant Pays</div>
-    <div class="utils-grid">
-      <span class="util-item"><span class="util-label">Hydro</span>100% (own meter)</span>
-      <span class="util-item"><span class="util-label">Gas</span>33.3%</span>
-      <span class="util-item"><span class="util-label">Water</span>33.3%</span>
-    </div>
-
-    <div class="collapsibles">
-      <button class="collapse-toggle" onclick="toggle(this,'f2-access')">🔑 Access <span class="toggle-arrow">▾</span></button>
-      <button class="collapse-toggle" onclick="toggle(this,'f2-contacts')">📋 Owner <span class="toggle-arrow">▾</span></button>
-    </div>
-
-    <div class="collapse-content" id="f2-access">
-      <div class="info-row">
-        <span class="info-label">Lockbox</span>
-        <span class="info-value">On railing &nbsp;·&nbsp; <button class="lockbox-reveal" onclick="reveal(this,'9518')">Tap to reveal</button></span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Note</span>
-        <span class="info-value">All 3 Fairleigh units share the same lockbox code. Unit is vacant.</span>
-      </div>
-    </div>
-
-    <div class="collapse-content" id="f2-contacts">
-      <div class="info-row">
-        <span class="info-label">Notify</span>
-        <span class="info-value">maya@tpropertysolutions.ca · rental.estatepro@gmail.com (Zarema, owner)</span>
-      </div>
-    </div>
-
-    <div class="card-notes">
-      <strong>Snow/ice:</strong> Tenant responsible for their own walkway to sidewalk.
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- FAIRLEIGH — UNIT 3 (LOWER) -->
-<div class="card-wrapper" data-status="soon">
-<div class="card">
-  <div class="card-strip strip-soon"></div>
-  <div class="card-body">
-    <div class="card-header">
-      <div class="card-address">
-        <div class="unit-label">Unit 3 · Lower</div>
-        <div class="address-main">10 Fairleigh Ave N</div>
-      </div>
-      <span class="status-badge badge-soon">Aug 1</span>
-    </div>
-
-    <div class="rent-row">
-      <span class="rent-amount">$1,250</span>
-      <span class="rent-period">/mo</span>
-    </div>
-
-    <div class="stats-row">
-      <span class="stat-chip"><span class="stat-icon">🛏</span>1 Bed</span>
-      <span class="stat-chip"><span class="stat-icon">🛁</span>1 Bath (3-pc)</span>
-      <span class="stat-chip"><span class="stat-icon">🅿️</span>Street Only</span>
-      <span class="stat-chip"><span class="stat-icon">🧺</span>In-Suite Laundry</span>
-      <span class="stat-chip"><span class="stat-icon">🚪</span>Private Entrance</span>
-    </div>
-
-    <div class="section-label">Utilities — Tenant Pays</div>
-    <div class="utils-grid">
-      <span class="util-item"><span class="util-label">Hydro</span>50% (shared w/ Unit 1)</span>
-      <span class="util-item"><span class="util-label">Gas</span>33.3%</span>
-      <span class="util-item"><span class="util-label">Water</span>33.3%</span>
-    </div>
-
-    <div class="collapsibles">
-      <button class="collapse-toggle" onclick="toggle(this,'f3-access')">🔑 Access <span class="toggle-arrow">▾</span></button>
-      <button class="collapse-toggle" onclick="toggle(this,'f3-contacts')">👤 Tenant <span class="toggle-arrow">▾</span></button>
-    </div>
-
-    <div class="collapse-content" id="f3-access">
-      <div class="info-row">
-        <span class="info-label">Lockbox</span>
-        <span class="info-value">On railing &nbsp;·&nbsp; <button class="lockbox-reveal" onclick="reveal(this,'9518')">Tap to reveal</button></span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Note</span>
-        <span class="info-value">Private entrance. All 3 Fairleigh units share the same lockbox code.</span>
-      </div>
-    </div>
-
-    <div class="collapse-content" id="f3-contacts">
-      <div class="info-row">
-        <span class="info-label">Tenant</span>
-        <span class="info-value">Taylor Manitowabi</span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Phone</span>
-        <span class="info-value"><a class="cl" href="tel:2898877721">289-887-7721</a></span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Email</span>
-        <span class="info-value"><a class="cl" href="mailto:taylormanitowabi@gmail.com">taylormanitowabi@gmail.com</a></span>
-      </div>
-      <div class="info-row">
-        <span class="info-label">Notify</span>
-        <span class="info-value">maya@tpropertysolutions.ca · rental.estatepro@gmail.com (Zarema, owner)</span>
-      </div>
-    </div>
-
-    <div class="card-notes">
-      <strong>Snow/ice:</strong> Tenant responsible for their own walkway to sidewalk.
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- ══════════════════════════════
-     REMAINING PROPERTIES
-══════════════════════════════ -->
-<div class="section-divider">
-  <div class="divider-line"></div>
-  <span class="divider-label">Other Properties</span>
-  <div class="divider-line"></div>
-</div>
 
 <!-- 130 WELLINGTON ST S — UNIT 5 -->
 <div class="card-wrapper" data-status="soon">
@@ -859,6 +630,70 @@ a.cl:hover { color: var(--green); border-color: var(--green); }
 
     <div class="card-notes">
       Dog &amp; cat friendly · Radiator heat · Balcony · Faux fireplace · <strong>Pre-qualifying questions required before booking a showing.</strong>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- 3-264 THAYER AVE — LOWER UNIT -->
+<div class="card-wrapper" data-status="now">
+<div class="card">
+  <div class="card-strip strip-now"></div>
+  <div class="card-body">
+    <div class="card-header">
+      <div class="card-address">
+        <div class="unit-label">Unit 3 · Lower</div>
+        <div class="address-main">264 Thayer Ave</div>
+      </div>
+      <span class="status-badge badge-now">Available Now</span>
+    </div>
+
+    <div class="rent-row">
+      <span class="rent-amount">$1,695</span>
+      <span class="rent-period">/mo</span>
+    </div>
+
+    <div class="stats-row">
+      <span class="stat-chip"><span class="stat-icon">🛏</span>2 Bed</span>
+      <span class="stat-chip"><span class="stat-icon">🛁</span>1 Bath</span>
+      <span class="stat-chip"><span class="stat-icon">🅿️</span>Street Only</span>
+      <span class="stat-chip"><span class="stat-icon">🧺</span>In-Suite W/D</span>
+      <span class="stat-chip"><span class="stat-icon">🍳</span>Dishwasher</span>
+    </div>
+
+    <div class="section-label">Utilities — Tenant Pays</div>
+    <div class="utils-grid">
+      <span class="util-item"><span class="util-label">Hydro</span>Own meter (100%)</span>
+      <span class="util-item"><span class="util-label">Gas</span>45%</span>
+      <span class="util-item"><span class="util-label">Water</span>33.3%</span>
+    </div>
+
+    <div class="collapsibles">
+      <button class="collapse-toggle" onclick="toggle(this,'thayer-access')">🔑 Access <span class="toggle-arrow">▾</span></button>
+      <button class="collapse-toggle" onclick="toggle(this,'thayer-contacts')">📋 Owner <span class="toggle-arrow">▾</span></button>
+    </div>
+
+    <div class="collapse-content" id="thayer-access">
+      <div class="info-row">
+        <span class="info-label">Lockbox</span>
+        <span class="info-value"><button class="lockbox-reveal" onclick="reveal(this,'0519')">Tap to reveal</button></span>
+      </div>
+    </div>
+
+    <div class="collapse-content" id="thayer-contacts">
+      <div class="info-row">
+        <span class="info-label">Status</span>
+        <span class="info-value">Vacant — Available now</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">Notify</span>
+        <span class="info-value">maya@tpropertysolutions.ca</span>
+      </div>
+    </div>
+
+    <div class="card-notes">
+      West Mountain · Steps to Concession St · Near Mohawk College · Jolly Cut access nearby · Stainless appliances throughout.<br><br>
+      <a class="cl" href="https://www.facebook.com/share/1LAgGxiWn9/" target="_blank">📋 View Facebook Marketplace Listing ↗</a>
     </div>
   </div>
 </div>
